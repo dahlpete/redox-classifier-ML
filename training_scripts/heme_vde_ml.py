@@ -1,11 +1,8 @@
 #!/usr/bin/env python3.6
 
 """
-Created on Mon May 20 2019
-Last Edited: June 13,2019
-
-@author: alex chang & Jessica Freeze & Malika Uteuliyeva
-modified by Peter Dahl for calculation of vertical displacement energies
+@author: Peter Dahl
+modified from script written by Alex Chang, Jessica Freeze, and Malika Uteuliyeva
 """
 
 import numpy as np
