@@ -20,6 +20,13 @@ When trained with at least 20 essential modes, the classifier is more than 95% a
 test data. However, a classifier model appears to be too simplistic to consistently predict the redox state 
 of hemes simulated in a protein environment.
 
+To use the redox classifier, run the redox_classifier_application.py script as follows:
+  python redox_classifier_application.py {model} {projections} {n_pcs}
+
+Trained models can be found in /application_scripts/models/
+Projection files can be found in /application_scripts/
+n_pcs is the number of essential modes you wish to use. This needs to be paired with the appropriate model.
+
 The more sophisticated model in this repository is a neural network used to predict vertical detachment 
 energies (ionization energies) from hemes, based on their geometry. Vertical detachment energies can be used
 to directly compute a heme redox potential using the linear response approximation. This model is trained on 
