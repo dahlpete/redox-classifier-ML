@@ -24,7 +24,7 @@ To use the redox classifier, run the redox_classifier_application.py script as f
   python redox_classifier_application.py {model} {projections} {n_pcs}
 
 Trained models can be found in /application_scripts/models/
-An example projection files can be found in /application_scripts/projection_files/
+An example projection files can be found in /application_scripts/heme_projections/
 n_pcs is the number of essential modes you wish to use. This needs to be paired with the appropriate model.
 
 The more sophisticated model in this repository is a neural network used to predict vertical detachment 
